@@ -19,6 +19,7 @@ RUN wget https://github.com/aelsabbahy/goss/releases/download/${GOSS_VERSION}/dg
 RUN chmod +x /usr/bin/dgoss
 
 VOLUME /goss
+VOLUME /var/run/docker.sock
 
 WORKDIR /goss
 
