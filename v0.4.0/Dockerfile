@@ -12,10 +12,10 @@ RUN apk add \
     wget \
     bash
 
-RUN wget https://github.com/aelsabbahy/goss/releases/download/${GOSS_VERSION}/goss-linux-amd64 -O /usr/bin/goss
+RUN wget https://github.com/SimonBaeumer/goss/releases/download/${GOSS_VERSION}/goss-linux-amd64 -O /usr/bin/goss
 RUN chmod +x /usr/bin/goss
 
-RUN wget https://github.com/aelsabbahy/goss/releases/download/${GOSS_VERSION}/dgoss -O /usr/bin/dgoss
+RUN wget https://github.com/SimonBaeumer/goss/releases/download/${GOSS_VERSION}/dgoss -O /usr/bin/dgoss
 RUN chmod +x /usr/bin/dgoss
 
 VOLUME /goss
