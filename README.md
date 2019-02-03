@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/SimonBaeumer/goss-docker.svg?branch=master)](https://travis-ci.com/SimonBaeumer/goss-docker)
+
 # goss
 
 https://hub.docker.com/r/simonbaeumer/goss-docker/
